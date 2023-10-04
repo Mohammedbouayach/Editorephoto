@@ -1,0 +1,174 @@
+:root{
+ --color-one:white;
+ --color-two:#222
+ 
+}
+
+
+.wraper{
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+ margin-top: 20px;
+}
+
+.folio{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 400px;
+ gap: 9px;
+
+ padding: 13px 0;
+ 
+ box-shadow: 3px 3px 3px  3px rgba(0, 0, 0, 0.6)
+}
+.folio img{
+ width: 100px;
+ border-radius: 50%;
+ border: 2px solid #4452EA;
+}
+.folio h1{
+ color: var(--color-two);
+ font-size: 17px;
+ width: 100px;
+ padding: 0 6px;
+}
+.folio p{
+color: var(--color-two);
+ font-size: 14px;
+ width: 300px;
+ 
+}
+.titel{
+ margin-top: 20px;
+}
+.titel span{
+ 
+ color: var(--color-two);
+ font-weight: bold;
+ font-size: 22px;
+}
+.social-media{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px;
+ margin-top: 20px;
+ justify-content: center;
+}
+.social-media .media{
+ background: var(--color-two);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding:60px  20px;
+ width: 200px;
+ height: 100px;
+ gap: 8px;
+ border-radius: 7px;
+}
+.media i{
+ color: var(--color-one);
+ font-size: 22px;
+}
+.media h4{
+ color: #4550C9;
+ 
+}
+.media a{
+ text-decoration: none;
+ color: #9199F5;
+ font-size: 14px;
+}
+.hero{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+}
+.contact-imag img{
+ width: 380px;
+}
+.contact-dirict form{
+ display: flex;
+ flex-direction: column;
+ gap: 17px;
+ 
+}
+.contact-dirict form input{
+ width: 360px;
+ text-align: center;
+ background: none;
+ border: none;
+ outline: none;
+ border-bottom: 1px solid var(--color-two);
+color:var(--color-two);
+padding: 4px 0;
+}
+.contact-dirict form input:focus{
+ border: 1px solid var(--color-two);
+}
+.contact-dirict form textarea{
+ width: 360px;
+ text-align: center;
+ background: none;
+
+ outline: none;
+
+color:var(--color-two);
+padding: 4px 0;
+}
+
+.contact-dirict form button{
+background: #4452F0;
+color: white;
+border: none;
+outline: none;
+border-radius: 15px;
+padding: 6px 0;
+}
+
+ @media screen and (max-width: 560px) {
+  .folio{
+   width: 300px;
+  }
+  .folio p{
+   width: 250px;
+  }
+  .social-media .media{
+   width: 150px;
+  
+  }
+  .media h4{
+   font-size: 12px;
+  }
+  .media a{
+   font-size: 10px;
+  }
+  
+  .contact-imag img{
+ width: 100px;
+ display: none;
+}
+  
+  .contact-dirict form input{
+   width: 300px;
+  }
+    .contact-dirict form textarea {
+     width: 300px;
+    }
+    
+      .contact-dirict form button {
+       width: 290px;
+      }
+      
+      footer{
+   margin-top: 30px;
+  }
+  
+ }

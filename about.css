@@ -1,0 +1,98 @@
+body{
+ 
+}
+
+:root{
+ --color-one:white;
+ --color-two:#222
+ 
+}
+
+.logo{
+ 
+background: var(--color-two); padding: 10px ;
+ border-radius: 50%;
+ font-size: 30px;
+ width: 40vw;
+ height: 40vw;
+ margin: auto;
+ text-align: center;
+ line-height: 350px;
+ margin-top: 40px;
+ border: solid var(--color-one) 10px;
+ box-shadow: 5px 4px 3px rbga(0,0,0.4)
+ 
+}
+.logo p{
+ font-size: 43px;
+ color:var(--color-one);
+}
+.logo p span{
+ color: #4655F8;
+}
+.description{
+ margin: auto;
+ background: var(--color-two);
+ color: var(--color-one);
+ width: 92vw;
+ padding:120px 34px 20px;
+
+ position: absolute;
+ top: 400px;
+ left: 40px;
+ z-index: -1;
+}
+.description p{
+ font-size: 14px;
+ 
+ text-align: center;
+ letter-spacing: 3px;
+}
+footer{
+ margin-top: 90px;
+}
+
+ @media screen and  (max-width: 768px) {
+  .logo{
+   line-height: 300px;
+  }
+  .description{
+   top: 300px;
+  }
+.description p{
+ font-size: 14px;
+}
+
+
+}
+
+
+
+
+ @media screen and (max-width: 560px) {
+  
+  
+  .logo{
+   line-height: 117px;
+  width: 50vw;
+  height: 50vw;
+   
+  }
+  .logo p{
+   font-size: 19px;
+  }
+  .description{
+   left: 15px;
+   top: 200px;
+   
+  }
+  .description p{
+   font-size: 10px;
+   
+ 
+  }
+  
+  
+ }
+ 
+
